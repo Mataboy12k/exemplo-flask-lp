@@ -3,9 +3,9 @@ from flask import Flask, render_template, request, redirect, url_for
 app = Flask(__name__)
 
 bebidas = [
-    {"texto": "Coca-cola ", "concluida": ' R$ 4,10'},
-    {"texto": "Roller ", "concluida": ' R$ 2,49'},
-    {"texto": "Sprite ", "concluida": ' R$ 2,40'},
+    {"texto": "Coca-cola", "concluida": ' R$ 4,10'},
+    {"texto": "Roller", "concluida": ' R$ 2,49'},
+    {"texto": "Sprite", "concluida": ' R$ 2,40'},
 ]
 
 @app.route('/') 
